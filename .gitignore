@@ -1,0 +1,43 @@
+# ==========================================
+# 1. VISUAL STUDIO & C#
+# ==========================================
+.vs/
+[Bb]in/
+[Oo]bj/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ==========================================
+# 2. ECLIPSE & JAVA
+# ==========================================
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.class
+*.jar
+# Nếu muốn Eclipse độc lập hoàn toàn với máy khác, bỏ qua cả file config dự án:
+.settings/
+.project
+.classpath
+
+# ==========================================
+# 3. VS CODE, PYTHON, JS/TS
+# ==========================================
+.vscode/
+node_modules/
+dist/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ==========================================
+# 4. HỆ THỐNG OS
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
