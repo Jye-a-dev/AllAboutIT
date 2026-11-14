@@ -11,6 +11,12 @@ from Python.Basic.Types.Number.Properties.CheckPrimeNumber import is_prime
 from Python.Basic.Types.Number.Properties.CheckOddNumber import is_odd
 from Python.Basic.Types.Number.Properties.CheckPowerofTwo import is_power_of_two
 from Python.Basic.Types.Number.Properties.CheckAmicable import is_amicable_numbers
+from Python.Basic.Types.Number.Properties.CheckPositive import is_positive
+from Python.Basic.Types.Number.Properties.CheckInteger import is_integer
+from Python.Basic.Types.Number.Properties.CheckComposite import is_composite
+from Python.Basic.Types.Number.Properties.CheckStrongNumber import is_strong_number
+from Python.Basic.Types.Number.Properties.CheckAutomorphic import is_Automorphic
+from Python.Basic.Types.Number.Properties.CheckCoprime import Coprime_numbers
 # ==========================================
 # 2. NUMBER THEORY (Lý thuyết số)
 # ==========================================
@@ -52,7 +58,7 @@ from Python.Basic.Types.Number.RootAndPower.PowerNumber import power_numbers
 from Python.Basic.Types.Number.RootAndPower.RootNNumber import N_Root_numbers
 from Python.Basic.Types.Number.RootAndPower.SquareNumber import square_number
 from Python.Basic.Types.Number.RootAndPower.SquareRootNumber import SquareRoot_numbers
-
+from Python.Basic.Types.Number.RootAndPower.CubeRootNumber import CubeRoot_numbers
 # ==========================================
 # EXPORTS
 # ==========================================
