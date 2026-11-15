@@ -1,14 +1,12 @@
 # Previous input
+import math
 a = int(input("Enter the number to check: "))
 
 # Process
 def is_Strong_Number(a):
-    if a < 4:
+    if a <= 0:
         return False
-    for i in range(2, int(a**0.5) + 1):
-        if a % i == 0:
-            return True
-    return False
+    return sum(math.factorial(int(d)) for d in str(a)) == a
 
 # Post process
 if is_Strong_Number(a):
