@@ -1,5 +1,6 @@
 # Previous input
 a = int(input("Enter the number to calculate Prime prime factors for: "))
+
 # Process
 def Prime_Factor_Number(a):
     if a <= 0:
@@ -15,5 +16,6 @@ def Prime_Factor_Number(a):
     if a > 1:
         prime_factors.append(a)
     return prime_factors
+
 # Post process
 print("The prime factors of the entered number are:", Prime_Factor_Number(a))

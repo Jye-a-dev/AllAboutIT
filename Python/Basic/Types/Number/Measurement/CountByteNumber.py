@@ -1,7 +1,8 @@
 # Previous input
 arr = 1234237634234
+
 # Process
-def count_bytes(a):
+def count_Bytes(a):
     count = 0
     while a > 0:
         a //= 256
@@ -9,6 +10,5 @@ def count_bytes(a):
     return count
 
 # Post process
-
-count = count_bytes(arr)
+count = count_Bytes(arr)
 print(f"The number {arr} has {count} bytes.")

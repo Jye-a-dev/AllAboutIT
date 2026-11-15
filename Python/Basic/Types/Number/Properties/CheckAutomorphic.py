@@ -14,4 +14,4 @@ if is_Automorphic(a):
 else:
     print("The number is not an automorphic number:", a)
 
-print("The result of is_Automorphic(a) is:", is_Automorphic(a)) 
+print("The result of is_Automorphic(a) is:", is_Automorphic(a))

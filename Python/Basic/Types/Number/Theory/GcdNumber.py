@@ -1,5 +1,6 @@
 # Previous input
 a = int(input("Enter the numbers of GCD: "))
+
 # Process
 def Gcd_Number(a):
     if a <= 0:

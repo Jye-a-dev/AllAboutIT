@@ -1,7 +1,8 @@
 # Previous input
 arr = 1234237634234
+
 # Process
-def count_digits(a):
+def count_Digits(a):
     count = 0
     while a > 0:
         a //= 10
@@ -9,6 +10,5 @@ def count_digits(a):
     return count
 
 # Post process
-
-count = count_digits(arr)
+count = count_Digits(arr)
 print(f"The number {arr} has {count} digits.")

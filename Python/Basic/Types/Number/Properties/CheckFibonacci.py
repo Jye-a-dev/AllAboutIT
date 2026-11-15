@@ -1,10 +1,11 @@
 # Previous input
-
 a = int(input("Enter the number to check: "))
 
 # Process
 def is_Fibonacci(a):
-    if a == 0 or a == 1:
+    if a < 0:
+        return False
+    if a in [0, 1]:
         return True
     prev, curr = 0, 1
     while curr < a:
@@ -17,5 +18,4 @@ if is_Fibonacci(a):
 else:
     print("The number is not a Fibonacci number:", a)
 
-print("The result of is_Fibonacci(a) is:", is_Fibonacci(a)) 
-
+print("The result of is_Fibonacci(a) is:", is_Fibonacci(a))

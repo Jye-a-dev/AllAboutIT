@@ -1,9 +1,8 @@
 # Previous input
-
 a = int(input("Enter the number to check: "))
 
 # Process
-def is_armstrong_number(a):
+def is_Armstrong_Number(a):
     # Convert the number to a string to easily iterate over each digit
     str_a = str(a)
     num_digits = len(str_a)
@@ -12,9 +11,9 @@ def is_armstrong_number(a):
     return sum_of_powers == a
 
 # Post process
-if is_armstrong_number(a):
+if is_Armstrong_Number(a):
     print("The number is an Armstrong number:", a)
 else:
     print("The number is not an Armstrong number:", a)
 
-print("The result of is_armstrong_number(a) is:", is_armstrong_number(a)) 
+print("The result of is_Armstrong_Number(a) is:", is_Armstrong_Number(a))

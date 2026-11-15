@@ -1,6 +1,6 @@
 # Previous input
-
 a = int(input("Enter the numbers of LCM: "))
+
 # Process
 def Lcm_Number(a):
     if a <= 0:

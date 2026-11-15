@@ -1,8 +1,10 @@
 # Previous input
 n1 = int(input("Enter first number: "))
 n2 = int(input("Enter second number: "))
+
 # Process
-def multiply_numbers(a, b):
-    return a * b
+def add_2_Numbers(num1, num2):
+    return num1 + num2
+
 # Post process
-print("The product of the entered numbers is:", multiply_numbers(n1, n2))
+print("The sum of", n1, "and", n2, "is:", add_2_Numbers(n1, n2))
