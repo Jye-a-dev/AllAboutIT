@@ -18,7 +18,7 @@ from Python.Basic.Types.Number.Properties.CheckPalindrome import is_Palindrome
 from Python.Basic.Types.Number.Properties.CheckPerfectNumber import is_Perfect_Number
 from Python.Basic.Types.Number.Properties.CheckPerfectSquareNumber import is_Perfect_Square
 from Python.Basic.Types.Number.Properties.CheckPositive import is_Positive
-from Python.Basic.Types.Number.Properties.CheckPowerOfTwo import is_Power_Of_Two
+from Python.Basic.Types.Number.Properties.CheckPowerofTwo import is_Power_Of_Two
 from Python.Basic.Types.Number.Properties.CheckPrimeNumber import is_Prime
 from Python.Basic.Types.Number.Properties.CheckStrongNumber import is_Strong_Number
 from Python.Basic.Types.Number.Properties.CheckZeroNumber import is_Zero
