@@ -74,7 +74,7 @@ from Python.Basic.Types.String.TrimAndPad.PadRight import pad_Right
 from Python.Basic.Types.String.TrimAndPad.CenterString import center_String
 from Python.Basic.Types.String.TrimAndPad.TruncateString import truncate_String
 
-# ==========================================
+# ==========================================QA
 # 6. SPLIT & JOIN (Tách & Ghép chuỗi)
 # ==========================================
 from Python.Basic.Types.String.SplitAndJoin.SplitByDelimiter import split_By_Delimiter
