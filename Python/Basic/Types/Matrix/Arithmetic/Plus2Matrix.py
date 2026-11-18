@@ -13,6 +13,8 @@ n24 = int(input("Enter fourth number: "))
 # Process
 def add_matrices(m1, m2):
     return [[m1[i][j] + m2[i][j] for j in range(len(m1[0]))] for i in range(len(m1))]
+
+add_2_Matrices = add_matrices
 # Post process
 print("The sum of the two matrices is:", add_matrices([[n11, n12, n13, n14], [n21, n22, n23, n24]], [[n21, n22, n23, n24], [n11, n12, n13, n14]]))
 
