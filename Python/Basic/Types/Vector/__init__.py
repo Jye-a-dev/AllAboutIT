@@ -1,8 +1,8 @@
 # ==========================================
 # 0. ROOT EXISTING FUNCTIONS (Cộng vector)
 # ==========================================
-from Python.Basic.Types.Vector.Plus2Vector import add_2_Vectors, add_vectors
-from Python.Basic.Types.Vector.PlusNVector import add_N_Vectors, plus_vectors
+from Python.Basic.Types.Vector.Arithmetic.Plus2Vector import add_2_Vectors, add_vectors
+from Python.Basic.Types.Vector.Arithmetic.PlusNVector import add_N_Vectors, plus_vectors
 
 # ==========================================
 # 1. VECTOR PROPERTIES (Kiểm tra tính chất)
