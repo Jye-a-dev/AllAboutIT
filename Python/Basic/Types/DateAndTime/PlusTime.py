@@ -12,5 +12,7 @@ def add_times(time1, time2):
     minutes, seconds = divmod(remainder, 60)
 
     return f"{hours:02}:{minutes:02}:{seconds:02}"
+
+add_time = add_times
 # Post process
 print("The combined time of", n1, "and", n2, "is:", add_times(n1, n2))

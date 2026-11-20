@@ -21,5 +21,7 @@ def add_date(date1, date2):
     months, days = divmod(remainder, 30)
     return f"{years} year, {months} month, {days} day"
 
+add_Date = add_date
+
 # Post process
 print("The combined date of", n1, "and", n2, "is:", add_date(n1, n2))

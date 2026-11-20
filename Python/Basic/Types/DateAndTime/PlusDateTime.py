@@ -23,5 +23,7 @@ def add_times(time1, time2):
     hours, remainder = divmod(remainder, 3600)
     minutes, seconds = divmod(remainder, 60)
     return f"{years} year, {months} month, {weeks} week, {days} day, {hours:02}:{minutes:02}:{seconds:02}"
+
+add_datetime = add_times
 # Post process
 print("The combined time of", n1, "and", n2, "is:", add_times(n1, n2))
